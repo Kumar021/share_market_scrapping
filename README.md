@@ -1,5 +1,4 @@
-# share_market_scrapping
-
+# SHARE MARKET DATA SCRAPING PROJECT
 # RUN Server command
 python manage.py runserver --settings=finance.settings.dev
 python manage.py makemigrations --settings=finance.settings.dev
