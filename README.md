@@ -1,9 +1,9 @@
 # SHARE MARKET DATA SCRAPING PROJECT
 # RUN Server command
-> python manage.py runserver --settings=finance.settings.dev
-> python manage.py makemigrations --settings=finance.settings.dev
-> python manage.py migrate --settings=finance.settings.dev
- > python manage.py createsuperuser --settings=finance.settings.dev
+ - python manage.py runserver --settings=finance.settings.dev
+ - python manage.py makemigrations --settings=finance.settings.dev
+ - python manage.py migrate --settings=finance.settings.dev
+ - python manage.py createsuperuser --settings=finance.settings.dev
 
 
 # SCRAPE COMMAND
